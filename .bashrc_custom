@@ -1,1 +1,13 @@
+# Search in function occurences of parameter (max 10)
+mans()
+{
+    if [ $# -ne 2 ]; then
+        echo "Two arguments: function and its parameter"
+        exit 1
+    else
+        man -Pless "$1" | grep -C10 --group-separator="==============================" -- "$2"
+    fi
+}
 
+# Prompt with background color
+export PS1="\[$(tput bold)$(tput setb 4)$(tput setaf 2)\]\u@\h:\w$ \[$(tput sgr0)\]"
