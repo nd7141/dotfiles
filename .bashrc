@@ -188,6 +188,18 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
+# Create and enter directory
+godir()
+{
+	if [ $# -ne 1 ]; then
+	   echo "Name of directory is not specified"
+	   exit 1
+	else
+	   mkdir "$1"
+	   cd "$1"
+	fi
+}
+
 
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
