@@ -238,3 +238,11 @@ fi
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
 eval `dircolors ~/.dircolors` 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Set locale to read other languages than English
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8

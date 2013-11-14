@@ -62,4 +62,6 @@ export PATH=$HOME/bin:$PATH
 export PATH=/usr/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
+export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/
+#export PATH=$HOME/processing/processing-2.0.3:$PATH
+standalone
