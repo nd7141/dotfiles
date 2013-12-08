@@ -237,8 +237,9 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
-eval `dircolors ~/.dircolors` 
+eval `dircolors ~/.dircolors`
 
+export website0=~/studies/website0/
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
