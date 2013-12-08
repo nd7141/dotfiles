@@ -61,14 +61,14 @@
 (add-to-list 'load-path "~/.emacs.d/fill-column-indicator")
 (require 'fill-column-indicator)
 (define-globalized-minor-mode
- global-fci-mode fci-mode (lambda () (fci-mode 1)))
+ global-fci-mode fci-mode (lambda () (fci-mode 1)))                        
 (global-fci-mode t)
 (setq fci-rule-width 2)
 (setq fci-rule-color "darkblue")
 (setq fci-rule-use-dashes .8)
 
-;; Now auto-complete
-
+(add-to-list 'default-frame-alist '(height . 27))
+(add-to-list 'default-frame-alist '(width . 65))
 
 ;; ------------
 ;; -- Macros --
