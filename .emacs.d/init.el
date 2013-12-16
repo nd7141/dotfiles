@@ -51,7 +51,7 @@
  '(fringe ((nil (:background "black"))))
  '(fundamental-mode-default ((t (:inherit default))) t)
  '(highlight ((((class color) (min-colors 8)) (:background "white" :foreground "magenta"))))
- '(highlight-current-line-face ((t (:inherit highlight))) t)
+ '(highlight-current-line-face ((t (:inherit highlight))))
  '(isearch ((((class color) (min-colors 8)) (:background "yellow" :foreground "black"))))
  '(lazy-highlight ((t (:background "paleturquoise" :foreground "black"))))
  '(link ((t (:foreground "DodgerBlue3" :underline t))))
@@ -65,7 +65,7 @@
  '(mouse ((t (:background "Grey" :foreground "black"))))
  '(region ((((class color) (min-colors 8)) (:background "white" :foreground "magenta"))))
  '(secondary-selection ((((class color) (min-colors 8)) (:background "gray" :foreground "cyan"))))
- '(show-paren-match ((((class color) (background light)) (:background "black"))) t)
+ '(show-paren-match ((((class color) (background light)) (:background "black"))))
  '(trailing-whitespace ((((class color) (background dark)) (:background "firebrick1"))))
  '(vertical-border ((t nil))))
 
@@ -260,4 +260,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
- '(custom-enabled-themes (quote (light-blue))))
+ '(custom-enabled-themes (quote (deeper-blue))))
